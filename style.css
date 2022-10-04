@@ -1,4 +1,4 @@
-body{
+html{
     background-color: black;
     font-size: 22px;
     color: seashell;
@@ -15,8 +15,9 @@ body{
 
 .nav{
     display: flex;
-    margin-left: 700px;
-    width: 400px;
+    position: relative;
+    left: 800px;
+    width: 350px;
     justify-content: space-around;
 }
 
@@ -58,4 +59,47 @@ a{
 
 figcaption{
     text-align: center;
+}
+
+.sub-container3{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./Images/img-locations-background.jpg);
+    height: 500px;
+    margin: 50px;
+}
+
+.location-heading{
+    text-align: center;
+}
+
+.location{
+    display: flex;
+    justify-content: center;
+}
+
+.location1{
+    background-color: black;
+    opacity: 1;
+    margin: 40px;
+    margin-bottom: 0;
+    width: 300px;
+    height: 250px;
+    text-align: center;
+}
+
+h3, p{
+    color: seashell;
+}
+
+footer p{
+    margin-left: 20px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.contact h2,
+.contact h5{
+    text-align: center;
+    color: seashell;
 }
